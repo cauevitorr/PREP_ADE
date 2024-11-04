@@ -5,7 +5,7 @@ import Usuario from "./usuarioModel.js";
 import Publicacao from "./publicacaoModel.js"; 
 
 const Curtida = conn.define("curtidas", {
-    tipo_valiacao: {
+    tipo_avaliacao: {
         type: DataTypes.ENUM(["up", "down"])
     }, 
     usuario_id: {
